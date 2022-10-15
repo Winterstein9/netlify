@@ -1,4 +1,4 @@
-#dist/ffg.html
+/dist/
 /node_modules/
 .parcel-cache/lock.mdb
 .parcel-cache/f6c2aacc42e8f766.txt
@@ -40,5 +40,6 @@ src/index.js
 package.json
 index.hbs
 ffg.hbs
+package.json
 package.json
 package.json

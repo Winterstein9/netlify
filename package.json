@@ -1,11 +1,17 @@
 {
   "name": "netlify",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/Winterstein9/netlify.git",
   "author": "Sergei Sviridov <asgard998@yandex.ru>",
   "license": "MIT",
   "dependencies": {
     "parcel": "^2.7.0"
+  },
+  "scripts": {
+    "dev": "parcel index.index",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9"
   }
 }
