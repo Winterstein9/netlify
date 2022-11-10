@@ -1674,7 +1674,7 @@ handlebars-wax@^6.1.0:
     object-assign "^4.1.1"
     require-glob "^3.2.0"
 
-handlebars@^4.0.11:
+handlebars@^4.0.11, handlebars@^4.7.7:
   version "4.7.7"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
   integrity sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==
@@ -2347,7 +2347,15 @@ ordered-binary@^1.2.4:
   resolved "https://registry.yarnpkg.com/ordered-binary/-/ordered-binary-1.4.0.tgz#6bb53d44925f3b8afc33d1eed0fa15693b211389"
   integrity sha512-EHQ/jk4/a9hLupIKxTfUsQRej1Yd/0QLQs3vGvIqg5ZtCYSzNhkzHoZc7Zf4e4kUlDaC3Uw8Q/1opOLNN2OKRQ==
 
-parcel@^2.7.0:
+parcel-transformer-hbs@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/parcel-transformer-hbs/-/parcel-transformer-hbs-1.0.4.tgz#098d4ee6dd45a29f8f0aef87bb66b584db234a3f"
+  integrity sha512-rs11O/iHR+eLnDMdlqiqFgfI8JjjEBb10sOKwd4SRExAGizT5sak4D6WhM014iF/3GaauHAnYbWWJeY7q7rKqw==
+  dependencies:
+    handlebars "^4.7.7"
+    parcel "^2.0.1"
+
+parcel@^2.0.1, parcel@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/parcel/-/parcel-2.7.0.tgz#41fdd3e5c7144d4cf7f1fa3ab8d0ea0d47d31f77"
   integrity sha512-pRYwnivwtNP0tip8xYSo4zCB0XhLt7/gJzP1p8OovCqkmFjG9VG+GW9TcAKqMIo0ovEa9tT+/s6gY1Qy+BONGQ==

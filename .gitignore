@@ -1,4 +1,4 @@
-/dist/
+
 /node_modules/
 .parcel-cache/lock.mdb
 .parcel-cache/f6c2aacc42e8f766.txt
@@ -43,3 +43,6 @@ ffg.hbs
 package.json
 package.json
 package.json
+yarn.lock
+package.json
+.DS_Store
