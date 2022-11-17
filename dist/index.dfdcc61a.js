@@ -1,4 +1,8 @@
-var Router = {
+document.addEventListener("DOMContentLoaded", function(e) {
+    e.preventDefault();
+    console.log("DOMContentLoaded");
+});
+let Router = {
     routes: {
         "/": "indexPage",
         "gallery": "galleryPage",
@@ -35,13 +39,13 @@ var Router = {
                     window.history.go();
                 } else history.pushState({
                     page: 1
-                }, "title 1", `/${args}`) //?page=1 POST
+                }, "title 1", `${args}`) //?page=1 POST
                 ;
             }
         }
     }
 };
-Router.init();
+Router.init("/");
 let body_A = document.querySelectorAll("body a");
 console.log("--->", body_A);
 for (let a of body_A)a.addEventListener("click", (e)=>{
